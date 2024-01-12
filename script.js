@@ -1,5 +1,7 @@
 //your JS code here. If required.
- const upper = document.getElementByID("fname");
- upper.addEventListener("blur", function(){
-	  upper.value = upper.value.toUpperCase();
- })
+function convertToUppercase() {
+    const inputField = document.getElementById("fname");
+    inputField.value = inputField.value.toUpperCase();
+}
+
+document.getElementById("fname").addEventListener("blur", convertToUppercase);
