@@ -4,4 +4,4 @@ function converter(){
 	const inp = document.getElementById("fname")
 	inp.value = inp.value.toUpperCase();
 }
- document.getElementById("fname").addEventListener("blue", converter);
+ document.getElementById("fname").addEventListener("blur", converter);
